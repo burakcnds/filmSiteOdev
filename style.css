@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+/* MAIN */
+body{
+    background-color: #FFAB0D;
+    font-family: 'Harry Potter', sans-serif;
+}
+.baslik{
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 75x;
+    justify-content: center;
+    justify-items: center;
+
+    
+}
+.container{
+    display: grid;
+    grid-template-rows: 140px 
+    290px 100px 340px; 
+}
+.alt{
+    display: grid;
+    grid-template-rows: 40px;
+}
+.resim{
+    width: 1600px;
+    height: 290px;
+}
+h1{
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 35px;                                            
+}
+.list{
+    font-size: 14px;
+    margin-left: 180px;
+    /* font-family: 'Roboto Slab', serif; */
+  
+}
+/* p{
+    
+    font-family: 'Roboto Slab', serif;
+} */
+.foto{
+    display: flex;
+    justify-content: center;
+    
+}
+.resim{
+    border-radius: 10px;
+}
+.yorum{
+    padding: 10px;
+    margin-left: 155px;
+    margin-right: 150px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    border-radius: 10px;
+}
+.alt{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+button{
+    width: 800px;
+    color: black;
+    border-radius: 10px;
+    font-family: 'Harry Potter', sans-serif;
+    background-color: #FFAB0D;
+    padding: 4px;
+    letter-spacing: 10px;
+    
+    
+}
+button:hover{
+   cursor: pointer; 
+}
